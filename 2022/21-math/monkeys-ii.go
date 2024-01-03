@@ -87,6 +87,6 @@ func main() {
 	}
 
 	root := monkeys["root"]
-  c, _ := converge(root.op1, root.op2, "humn", monkeys).Float64()
+        c, _ := converge(root.op1, root.op2, "humn", monkeys).Float64()
 	fmt.Println(int(c))
 }
