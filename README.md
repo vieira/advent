@@ -16,9 +16,17 @@ cd 2021/01-sonar
 deno run sweep-i.js < input.txt
 ```
 
-and to run the last day of 2022:
+or to run the last day of 2022:
 
 ```sh
 cd 2022/25-fuel
 go run snafu-i.go < input.txt
+```
+
+or to run the second part of the 23rd day of 2023:
+
+```sh
+cd 2023/23-walk
+rustc -O long-ii.rs
+./long-ii < input.txt
 ```
